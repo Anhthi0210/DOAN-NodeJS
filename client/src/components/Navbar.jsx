@@ -4,11 +4,12 @@ import { SearchSharp, ShoppingCartSharp } from '@material-ui/icons'
 import { Badge, IconButton } from '@material-ui/core';
 
 const Container= styled.div`
-    height: 60px;
+    height: 80px;
+    margin-top:-25px;
 `;
 
 const Wrapper= styled.div`
-    padding: 10px 20px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
