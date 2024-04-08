@@ -1,5 +1,4 @@
 import { LocalShippingSharp } from '@material-ui/icons';
-import React from 'react';
 import styled from 'styled-components';
 
 const Container= styled.div`
@@ -10,6 +9,7 @@ const Container= styled.div`
     align-items: center;
     justify-content: center;
     font-size:14px;
+    font-weight: 500;
 `;
 
 const Announcement = () => {

@@ -8,7 +8,7 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 3;
   display: flex;
   align-items: center;
@@ -17,33 +17,33 @@ const Info = styled.div`
   cursor: pointer;
 `;
 
-const Container=styled.div`
-    flex: 1;
-    margin: 5px;
-    min-width: 280px;
-    max-width: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f5fbfd;
-    position: relative;
+const Container = styled.div`
+  flex: 1;
+  margin: 5px;
+  min-width: 280px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f1f6;
+  position: relative;
 
-    &:hover ${Info}{
-      opacity: 1;
-    }
+  &:hover ${Info}{
+    opacity: 1;
+  }
 `;
 
 const Circle = styled.div`
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: white;
-    position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
 `;
 
 const Image = styled.img`
-  height: 75%;
-  z-index:2;
+  height: 100%;
+  z-index: 2;
 `;
 
 const Icon = styled.div`
@@ -55,14 +55,12 @@ const Icon = styled.div`
   align-items: center;
   justify-content: center;
   margin: 10px;
-  transition: all 0.1s ease;
-
-  &:hover{
+  transition: all 0.5s ease;
+  &:hover {
     background-color: #e9f5f5;
     transform: scale(1.1);
   }
 `;
-
 
 const Product = ({item}) => {
   return (
